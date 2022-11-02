@@ -48,7 +48,7 @@ generateButton.addEventListener('click', () => generateAvatar())
 downloadButton.addEventListener('click', () => {
     html2canvas(avatar).then(canvas => {
        document.body.appendChild(canvas)
-        const image = canvas.toDataUrl()
+        const image = canvas.toDataURL()
 
         const link = document.createElement('a')
         link.download = 'avatar.png'
