@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .content {
+    text-align: center;
+  }
+  
+  .avatar {
+    width: 440px;
+    height: 440px;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  
+  .avatar-detail {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .avatar-head {
+    top: 125px;
+  }
+  
+  .avatar-top {
+    top: 58px;
+    z-index: 2;
+  }
+  
+  .avatar-mouth {
+    top: 225px;
+  }
+  
+  .avatar-eyes {
+    top: 200px;
+  }
+  
+  .avatar-glasses {
+    top: 194px;
+    z-index: 1;
+  }
+  
+  .avatar-eyebrows {
+    top: 176px;
+  }
+  
+  .avatar-body {
+    top: 297px;
+  }
+  
+  .avatar-pet {
+    position: absolute;
+    bottom: -50px;
+    left: -50px;
+  }
+  
+  .button {
+    width: 100px;
+    height: 40px;
+    border: none;
+    background: #1876d0;
+    color: #fff;
+    font-size: 17px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background: #115392;
+  }
